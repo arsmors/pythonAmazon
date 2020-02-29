@@ -126,6 +126,6 @@ class Test_AMZN_Search(Test_AMZN_Search_Base):
         self.assertTrue(self.signInPage.is_visible(Locators.USER_EMAIL_OR_MOBIL_NO_TEXTBOX))
 
 
-if __name__ == '__main__':
-    # specify path where the HTML reports for testcase execution are to be generated
-    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output=parentdir + '\Reports'))
+# if __name__ == '__main__':
+#     # specify path where the HTML reports for testcase execution are to be generated
+#     unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output=parentdir + '\Reports'))

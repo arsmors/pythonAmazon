@@ -1,6 +1,5 @@
 # bnk
 import unittest
-import HtmlTestRunner
 from selenium import webdriver
 
 import os, sys, inspect
